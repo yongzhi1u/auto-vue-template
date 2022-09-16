@@ -10,7 +10,7 @@ const generateFiles = async (src, dest, componentName) => {
   const flag = await fileWriter(content, dest)
 }
 
-generateFiles(src, componentName,dest)
+generateFiles(src, dest, componentName)
 .catch(err => {
   console.log(err);
 })
